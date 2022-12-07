@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mohid's Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/4d0213e268.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<img src="images/thelogo.png" class="logo">
+			<ul>
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">My Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+		<div class="header-text">
+			<h1>Hi, I'm <span>Mohid Raza</span><br>from Pakistan</h1>
+		</div>
+</div>
+<!-- -------About--------- -->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="images/profile.jpg">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p></p>
+
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li> Website Development</li>
+						<li>LateX Editor</li>
+						<li>Python</li>
+						<li>C++</li>
+						<li>Camera Equipment</li>
+						<li>Videography Equipment</li>
+						<li>Sound Recording Equipment</li>
+						<li>Canva</li>
+						<li>Google Platforms</li>
+						<li>Microsoft Platforms</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span> Al Shifa Trust Eye Hospital</span><br>Volunteer</li>
+						<li><span>Multicultural Summer program at Oxford</span><br>Practiced Teamwork and leadership Skills</li>
+						<li><span>Saham Hospitak</span><br>Volunteer</li>
+						<li><span>Pakistan Student Association</span><br>Events Coordinator</li>
+						<li><span>Staff Appreciation Day</span><br>Events Coordinator</li>
+						<li><span>School Fest</span><br>Events Coordinator</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span> New York University Abu Dhabi</span><br>Bachelors of Sciences of Computer Science</li>
+						<li><span>Roots IVY international School</span><br>A-Levels</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- --------------My Work-------------- -->
+<div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Projects</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/website.png">
+				<div class="layer">
+					<h3>First Website</h3>
+					<p>The first website I ever made which contains a short trailer for a fun video project I made with friends! </p>
+					<a href="https://alucardm13.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/comicnew.jpg">
+				<div class="layer">
+					<h3>Meet The Falcons</h3>
+					<p>A comic strip about The Falcons, a group of superheroes who help students with their daily struggles at NYUAD!</p>
+					<a href="https://basil-ahmed.github.io/CommunicationsLab/TheFalcons/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/sound2new.jpg">
+				<div class="layer">
+					<h3>Journey Through Pakistan</h3>
+					<p>An interactive audio-based website exploring the different cultures and people that make up the diverse and culturally rich country of Pakistan!</p>
+					<a href="https://basil-ahmed.github.io/PakistanJourney/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/stickshovel.jpg">
+				<div class="layer">
+					<h3>How to Bury a Body</h3>
+					<p>An informative step-by-step video guide on how to acquire and bury your very own body!</p>
+					<a href="https://zion-off.github.io/vid-e-oh/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ----------------Contact------------------ -->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-solid fa-envelope"></i>mr6174@nyu.edu</p>
+				<p><i class="fa-solid fa-phone"></i>+971 56 414 4576</p>
+				<p><i class="fa-brands fa-whatsapp"></i>+92 335 8096659</p>
+				<p><i class="fa-brands fa-discord"></i>AlucardM13#9000</p>
+				<div class="social-icons">
+					<a href="https://github.com/AlucardM13"><i class="fa-brands fa-github"></i></a>
+					<a href="https://www.instagram.com/mohid_raza_m13/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+					<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required=>
+					<input type="email" name="Email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<script src="script.js"></script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzmELqh4QR503BgJx3U_5dMXpjH9mFsKTIRioG5C1Q1MsnAg0MY_uaLKV24BUP_7XT1/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML ="Message Sent Succesfully!"
+      	setTimeout(function(){
+      		msg.innerHTML = ""
+      	}, 5000)
+      	form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
+
+ 
